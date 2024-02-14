@@ -262,7 +262,7 @@ $row = $select->fetch_object();
                           </label>
                         </div>
                         <div class="icheck-primary d-inline">
-                          <input type="radio" name="rb" value="Card" id="radioSuccess2">
+                          <input type="radio" name="rb" value="QR" id="radioSuccess2">
                           <label for="radioSuccess2">
                             QR <i class="fas fa-qrcode"></i>
                           </label>
