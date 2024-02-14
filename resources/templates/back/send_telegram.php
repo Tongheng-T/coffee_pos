@@ -32,14 +32,16 @@
         $subtotal = $row->stotal;
         $invoice = $row->invoice;
         $Discount_total = $row->discount_total;
+        $monthly = date('m', strtotime($date_1));
 
-        $messaggio .= 'របាយការណ៍ការប្រចាំខែ ' . date_rank() . '
-ចាប់ពីថ្ងៃទី ' . date('d-m-Y', strtotime($date_1)) . '
-ដល់ថ្ងៃទី ' . date('d-m-Y', strtotime($date_2));
 
         $messaggio .= '
-ចំនួនវិក័យប័ត្រ ' . $invoice . ' | សរុប= ' . $subtotal . ' | Discount= ' . $Discount_total . ' | សរុបដក់Discount= ' . $grand_total
-;
+របាយការណ៍ការប្រចាំខែ ' . convert_month_kh($monthly) . '
+ចាប់ពីថ្ងៃទី ' . date('d-m-Y', strtotime($date_1)) . ' ដល់ថ្ងៃទី ' . date('d-m-Y', strtotime($date_2));
+
+        $messaggio .= '
+ចំនួនវិក័យប័ត្រ ' . $invoice . ' | សរុប= ' . number_format($subtotal) . '៛  
+Discount= ' . number_format($Discount_total) . '៛ | សរុបដក់Discount= ' . number_format($grand_total).'៛';
 
         ?>
 

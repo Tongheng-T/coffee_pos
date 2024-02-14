@@ -100,12 +100,12 @@ if (isset($_POST['date_1'])) {
                 <div class="col-md-2">
 
                   <div lign="left">
-                    <button type="submit" class="btn btn-warning" name="btnfilter">Filter Records</button>
+                    <button type="submit" class="btn btn-warning btnrank" name="btnfilter">Filter Records</button>
                     
                     <button class="btn btn-success" id="print-btn"><i class="fas fa-print"></i></button>
                   </div><br>
       
-                  <button class="btn btn-primary send_telegram" id="send_telegram"><i class="fab fa-telegram-plane"></i> Send Telegram</button>
+                  <button class="btn btn-primary btnrank send_telegram" id="send_telegram"><i class="fab fa-telegram-plane"></i> Send Telegram</button>
                  
                 </div>
 
