@@ -11,8 +11,8 @@
   <link rel="icon" href="../ui/logo/48.ico" sizes="48x48">
   <link rel="icon" href="../ui/logo/96.ico" sizes="96x96">
   <link rel="icon" href="../ui/logo/256.ico" sizes="144x144">
-  <link type="text/css" rel="stylesheet" href="../dist/css/receiptt.css" media="all">
-  <link type="text/css" rel="stylesheet" href="../dist/css/no-printt.css" media="print">
+  <link type="text/css" rel="stylesheet" href="../dist/css/receipt.css" media="all">
+  <link type="text/css" rel="stylesheet" href="../dist/css/no-print.css" media="print">
 </head>
 
 <body>

@@ -4,7 +4,7 @@
 
 @media print {
     @page {
-        size: 90mm 200mm;
+        size: 58mm 200mm;
         margin: -30px;
         /* auto is the initial value */
     }
