@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../dist/css/styleee.css">
     <link href="../dist/css/printt.css" rel="stylesheet" media="print">
 
-    <title>របាយការណ៍ការលក់ <?php echo show_categoryname($_SESSION['category_id']); ?> ប្រចាំខែ: <?php date_rank(); ?></title>
+    <title>របាយការណ៍ការលក់ <?php echo show_categoryname($_SESSION['user_seller_id']); ?> ប្រចាំខែ: <?php date_rank(); ?></title>
 </head>
 
 <body>

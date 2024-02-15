@@ -94,7 +94,7 @@
             <td>Total Quantity</td>
             <td><?php echo $countqty ?></td>
             <td>Total</td>
-            <td><?php echo number_format($row->total) ?> <span class="bb">&#x17DB </span></td>
+            <td><b style="font-size: 15px"><?php echo number_format($row->total) ?> <span class="bb">&#x17DB </span></b></td>
           </tr>
           <tr>
             <td colspan="2">Payment Type</td>
